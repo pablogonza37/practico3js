@@ -2,26 +2,26 @@
 
 document.write(`<h1>Ejercicio 2 - Trabajo Practico 3</h1>`);
 
-const ciudades = ['Nueva York, Estados Unidos', 'Barcelona, España', 'Tokio, Japón', 'Londres, Reino Unido', 'Roma, Italia', 'Pekín, China', 'Río de Janeiro, Brasil', 'Ámsterdam, Países Bajos', 'Sídney, Australia', 'El Cairo, Egipto'];
-/*do {
+const ciudades = [];
+do {
   ciudades.push(prompt("Por favor, ingrese nombre de ciudad"));
 } while (confirm("Desea seguir agregando ciudades?"));
-*/
+
 document.write(
   `<p>El arreglo de ciudades tiene ${ciudades.length} elementos</p>`
 );
 
 document.write(`<ul>`);
-document.write(`<li>Elemento en la 1er posicion: ${ciudades[0]}</li>`);
-document.write(`<li>Elemento en la 3er posicion: ${ciudades[2]}</li>`);
+document.write(`<li>Elemento en la 1er posición: ${ciudades[0]}</li>`);
+document.write(`<li>Elemento en la 3er posición: ${ciudades[2]}</li>`);
 document.write(
-  `<li>Elemento en la ultima posicion: ${
+  `<li>Elemento en la última posición: ${
     ciudades[ciudades.length - 1]
   }</li></br>`
 );
 ciudades.push("Paris, Francia");
 document.write(
-  `<li>Elemento en la ultima posicion: ${ciudades[ciudades.length - 1]}</li>`
+  `<li>Elemento en la última posición: ${ciudades[ciudades.length - 1]}</li>`
 );
 
 document.write(`</ul>`);

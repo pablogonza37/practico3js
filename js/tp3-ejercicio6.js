@@ -6,8 +6,8 @@ function perimetro(base, altura){
     return 2*(base + altura);
 }
 
-const base = parseFloat(prompt('Digite la base del triangulo'));
+const base = parseFloat(prompt('Digite la base del triángulo'));
 
-const altura = parseFloat(prompt('Digite la altura del triangulo'));
+const altura = parseFloat(prompt('Digite la altura del triángulo'));
 
-document.write(`El perimetro del triangulos es de ${perimetro(base, altura)}`);
+document.write(`El perímetro del triángulo es: ${perimetro(base, altura)}`);

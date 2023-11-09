@@ -2,11 +2,11 @@
 
 document.write(`<h1>Ejercicio 2 - Trabajo Practico 3</h1>`);
 
-const ciudades = ['Nueva York, Estados Unidos', 'Barcelona, España', 'Tokio, Japón', 'Londres, Reino Unido', 'Roma, Italia', 'Pekín, China', 'Río de Janeiro, Brasil', 'Ámsterdam, Países Bajos', 'Sídney, Australia', 'El Cairo, Egipto'];
-/*do {
+const ciudades = [];
+do {
   ciudades.push(prompt("Por favor, ingrese nombre de ciudad"));
 } while (confirm("Desea seguir agregando ciudades?"));
-*/
+
 document.write(
   `<p>El arreglo de ciudades tiene ${ciudades.length} elementos</p>`
 );
